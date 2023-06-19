@@ -19,18 +19,13 @@ console.clear();
 //    jei nera nedarom.
 
 const buttonDOM = document.getElementById('mygtukas');
+const titleDOM = document.getElementById('antraste');
 // console.log([buttonDOM]);
 
-if (buttonDOM !== null) {
-    console.log('radom button')
-    const titleDOM = document.getElementById('antraste');
-    console.log([titleDOM]);
-    if (titleDOM !== null) {
-        console.log('radom antraste');
-        titleDOM.textContent = "Labas Vakaras!";
-    } else {
-        console.log('neradom');
-    }
-} else {
-    console.log('neradom');
+function kaDaryti() {
+    console.log('eik pakeisk teksta'); 
+    titleDOM.textContent = "Labas Vakaras!";
 }
+
+buttonDOM.addEventListener('click', kaDaryti);
+

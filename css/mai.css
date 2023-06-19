@@ -20,3 +20,17 @@ button {
     font-size: 2rem;
 }
 
+form {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 3rem;
+}
+
+form > button {
+    background-color: red;
+}
+
+div ~ button {
+    background-color: yellow;
+}
