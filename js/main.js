@@ -3,6 +3,9 @@
 // -css variklis
 // -js variklis
 // -local storage variklis
+
+import { renderHeader } from "./header.js";
+renderHeader(true);
 console.clear();
 
 // paspaudus <button> 
