@@ -7,6 +7,7 @@ function renderHeader(isHomePage) {
             <a href="${url}./clicker/">Clicker</a>
             <a href="${url}./list/">List</a>
             <a href="${url}./">Home</a>
+            <a href="${url}./chess">Chess</a>
           </nav>
     </header>
     `;
